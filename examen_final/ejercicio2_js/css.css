@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffb5d8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #e722da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e27ddf;
+}
+
+.resultado {
+    margin-top: 30px;
+}
+
+.resultado table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.resultado th, .resultado td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.resultado th {
+    background-color: #f2f2f2;
+}
+
+.categoria-a {
+    color: black;
+}
+
+.categoria-b {
+    color: green;
+}
+
+.categoria-c {
+    color: blue;
+}

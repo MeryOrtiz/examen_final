@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corredores y Vueltas</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Vueltas y Tiempos de Corredores</h1>
+        <form action="php.php" method="POST">
+            <label for="total_vueltas">Número de Vueltas Totales:</label>
+            <input type="number" id="total_vueltas" name="total_vueltas" min="1" required>
+            
+            <label for="tiempo_A">Tiempo que dura el Corredor A en dar una vuelta (minutos):</label>
+            <input type="number" id="tiempo_A" name="tiempo_A" min="1" required>
+            
+            <label for="tiempo_B">Tiempo que dura el Corredor B en dar una vuelta (minutos):</label>
+            <input type="number" id="tiempo_B" name="tiempo_B" min="1" required>
+            
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
+</body>
+</html>
